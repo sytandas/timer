@@ -23,7 +23,7 @@ release: $(TARGET)
 
 install: $(TARGET)
 	install -D $(TARGET) $(DESTDIR)$(PREFIX)/$(TARGET)
-	install -Dm644 tm.1 $(DESTDIR)$(PREFIX)/share/man/man1/tm.1
+	install -Dm644 timer.1 $(DESTDIR)$(PREFIX)/share/man/man1/timer.1
 
 clean:
 	rm -rf bin
