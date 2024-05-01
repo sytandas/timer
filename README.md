@@ -1,1 +1,1 @@
-text based timer tool
+Simple text based timer tool.
